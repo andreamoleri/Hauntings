@@ -48,4 +48,4 @@ python3 hauntings.py
 The script calculates and prints statistics related to the haunted locations, and saves them in **'hauntingstats.txt'**.
 
 
-  👻 _Happy Haunting!_👻
+  👻 _Happy Haunting!_ 👻
