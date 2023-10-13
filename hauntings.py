@@ -1,6 +1,7 @@
 # Import necessary libraries for data visualization, map plotting, and analysis
 import folium
 import pandas as pd
+import auxiliaryFunctions
 from folium.plugins import HeatMap
 
 # Define the path to the CSV containing haunted locations data
@@ -34,11 +35,6 @@ for index, row in dataframe.iterrows():
 # Then save the map as an HTML file
 HeatMap(heat_data).add_to(us_map)
 us_map.save('HauntingsDistribution.html')
-
-# Function to explore the DataFrame, providing a summary of its contents
-def explore_data_frame():
-    """
-    Display the first few rows of the DataFrame and print information about the DataFrame's structure.
-    """
-    print(dataframe.head())
-    print(dataframe.info())
+      
+# Print haunting stats to a .txt file
+auxiliaryFunctions.stats()
