@@ -37,4 +37,6 @@ HeatMap(heat_data).add_to(us_map)
 us_map.save('HauntingsDistribution.html')
       
 # Print haunting stats to a .txt file
-auxiliaryFunctions.stats()
+auxiliaryFunctions.stats(dataframe)
+auxiliaryFunctions.success_message()
+
