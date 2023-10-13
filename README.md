@@ -2,7 +2,7 @@
 
 This Python program processes haunted locations data from a CSV file and generates a heatmap to visualize the most haunted places in the United States of America. It also provides statistics related to these haunted locations.
 
-<img width="1433" alt="Screenshot 2023-10-13 at 21 41 29" src="https://github.com/andreamoleri/Hauntings/assets/70026300/11b7e6e4-b7df-48a5-a68b-014ac7e36846">
+![Screenshot 2023-10-13 at 22 03 20](https://github.com/andreamoleri/Hauntings/assets/70026300/6dc7d816-e662-4b2c-ad53-63c73154f6ca)
 
 ## Prerequisites
 
