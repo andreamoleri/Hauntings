@@ -1,4 +1,4 @@
-# Hauntings
+# Hauntings 👻
 
 This Python program processes haunted locations data from a CSV file and generates a heatmap to visualize the most haunted places in the United States of America. It also provides statistics related to these haunted locations.
 
@@ -46,4 +46,4 @@ python3 hauntings.py
 The script calculates and prints statistics related to the haunted locations, and saves them in **'hauntingstats.txt'**.
 
 
-  👻 _Happy Haunting! 👻_
+  👻 _Happy Haunting!_👻
