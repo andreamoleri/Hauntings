@@ -39,7 +39,7 @@ python3 hauntings.py
 - Folium is used for map visualization.
 - Pandas is used for data manipulation and analysis.
 ### Read Haunted Locations Data:
-- The script reads the haunted locations data from **hauntings.csv** into a Pandas DataFrame.
+- The script reads the haunted locations data from **hauntings.csv** into a Pandas DataFrame. This file was kindly provided in the public domain by Tim Renner (https://data.world/timothyrenner/haunted-places)
 ### Data Processing:
 - Missing latitude and longitude values are replaced with arbitrary values (0) for heatmap generation.
 ### Heatmap Generation:
