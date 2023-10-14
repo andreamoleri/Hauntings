@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Hides the secondary repo language
+*.html linguist-detectable=false
