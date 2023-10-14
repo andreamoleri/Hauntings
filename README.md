@@ -2,6 +2,8 @@
 
 This Python program processes haunted locations data from a CSV file and generates a heatmap to visualize the most haunted places in the United States of America. It also provides statistics related to these haunted locations.
 
+![Screenshot 2023-10-13 at 22 03 20](https://github.com/andreamoleri/Hauntings/assets/70026300/6dc7d816-e662-4b2c-ad53-63c73154f6ca)
+
 ## Prerequisites
 
 Make sure you have the following libraries installed in your Python environment:
@@ -37,7 +39,7 @@ python3 hauntings.py
 - Folium is used for map visualization.
 - Pandas is used for data manipulation and analysis.
 ### Read Haunted Locations Data:
-- The script reads the haunted locations data from **hauntings.csv** into a Pandas DataFrame.
+- The script reads the haunted locations data from **hauntings.csv** into a Pandas DataFrame. This file was kindly provided in the public domain by Tim Renner (https://data.world/timothyrenner/haunted-places)
 ### Data Processing:
 - Missing latitude and longitude values are replaced with arbitrary values (0) for heatmap generation.
 ### Heatmap Generation:
@@ -46,4 +48,4 @@ python3 hauntings.py
 The script calculates and prints statistics related to the haunted locations, and saves them in **'hauntingstats.txt'**.
 
 
-  👻 _Happy Haunting!_👻
+  👻 _Happy Haunting!_ 👻
